@@ -17,7 +17,7 @@ import 'bloc/mic_cubit/mic_cubit.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await AuthService.firebase().initialize();
-  await dotenv.load(fileName: "assets/.env");
+  //await dotenv.load(fileName: "assets/.env");
 
   runApp(
     MultiBlocProvider(

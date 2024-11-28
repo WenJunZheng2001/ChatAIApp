@@ -15,7 +15,8 @@ import 'chat_event.dart';
 import 'chat_state.dart';
 
 class ChatBloc extends Bloc<ChatEvent, ChatState> {
-  final String lisaMobileUrl = dotenv.env['LISA_MOBILE_URL'] ?? "";
+  //final String lisaMobileUrl = dotenv.env['LISA_MOBILE_URL'] ?? "";
+  final String lisaMobileUrl = "fake_url";
   bool isFileOrPhotoUploaded = false;
   String? token;
   List<UploadFileModel> fileAndImagesFromUser = [];

@@ -18,8 +18,10 @@ import 'mic_state.dart';
 
 class MicCubit extends Cubit<MicState> {
   late PorcupineManager? _porcupineManager;
-  final String _accessKey = dotenv.env['ACCESS_KEY'] ?? "";
-  final String lisaMobileUrl = dotenv.env['LISA_MOBILE_URL'] ?? "";
+  //final String _accessKey = dotenv.env['ACCESS_KEY'] ?? "";
+  final String _accessKey = "fake_access_key";
+  //final String lisaMobileUrl = dotenv.env['LISA_MOBILE_URL'] ?? "";
+  final String lisaMobileUrl = "fake_url";
   final SpeechToText _speechToText = SpeechToText();
   String _lastWords = '';
   List<LocaleName> localLanguages = [];
