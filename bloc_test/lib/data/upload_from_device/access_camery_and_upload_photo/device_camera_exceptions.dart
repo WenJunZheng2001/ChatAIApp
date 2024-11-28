@@ -1,0 +1,1 @@
+class DeviceCameraException implements Exception {}

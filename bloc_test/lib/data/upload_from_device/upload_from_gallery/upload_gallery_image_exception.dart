@@ -1,0 +1,1 @@
+class UploadGalleryImageException implements Exception {}

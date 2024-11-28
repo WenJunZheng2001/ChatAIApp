@@ -1,0 +1,1 @@
+class RoleFailedAssignRoleException implements Exception {}
